@@ -1,0 +1,8 @@
+.links__child {
+    text-decoration: none;
+    color: #0E0C0D;
+    padding-left: 1.4rem;
+    &:first-child {
+        padding: 0;
+    }
+}

@@ -1,0 +1,28 @@
+.logo__txt {
+    display: flex;
+    flex-direction: column;
+    & {
+        
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 0.93rem;
+        line-height: 1.1rem;
+        letter-spacing: -0.015em;
+        text-transform: uppercase;
+
+        color: #231F20;
+    }
+    & span {
+        font-family: 'Panton';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 3.9rem;
+        line-height: 4.7rem;
+        /* identical to box height */
+
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+
+        color: #231F20;
+    }
+}
