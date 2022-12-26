@@ -1,0 +1,11 @@
+.pay {
+    position: relative;
+    left: 17rem;
+    img {
+        width: 3.6rem;
+        height: 3.6rem;
+        &:not(:first-child) {
+            margin-left: 1.8rem;
+        }
+    }
+}
