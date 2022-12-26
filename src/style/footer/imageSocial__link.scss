@@ -1,0 +1,21 @@
+.imageSocial__link {
+    padding: 1.1rem 3.5rem;
+    border: 2px solid #E3ECF5;
+    border-radius: 13px;
+    
+    &:last-child {
+        padding: 1.8rem 5.9rem;
+        align-self: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        color: #0E0C0D;
+        opacity: 0.8;
+    }
+    img {
+        width: 3rem;
+        height: 3rem;
+    }
+}
