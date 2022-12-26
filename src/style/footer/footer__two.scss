@@ -1,0 +1,15 @@
+.footer__two {
+    width: 44.5rem;
+    .number {
+        display: flex;
+        flex-direction: column;
+        gap: 1.9rem;
+        * {
+            padding: 0;
+        }
+        .call__btn {
+            width: 18rem;
+            padding: 0.7rem 2.7rem;
+        }
+    }
+}
