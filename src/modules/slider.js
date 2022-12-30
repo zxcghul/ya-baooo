@@ -13,13 +13,13 @@ const slider = () => {
               },
             576: {
                 // loop: false,
-                slidesPerView: 1,
+                slidesPerView: 1.3,
+                centeredSlides: true,
                 // slidesPerView: "auto",
-                // centeredSlides: true,asd
+                // centeredSlides: true,
                 spaceBetween: 21
             }
         }
-      
     });
 }
 
