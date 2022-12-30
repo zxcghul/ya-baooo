@@ -1,0 +1,21 @@
+.tabs__block {
+    display: flex;
+    flex-direction: column;
+    width: 25.5rem;
+    height: 10.4rem;   
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.03);
+    border-radius: 14px;
+    p {
+        position: relative;
+        top: -1.8rem;
+        width: 21.6rem;
+        align-self: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        color: #473E43;
+    }
+}
