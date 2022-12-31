@@ -1,11 +1,12 @@
+.slider {
+  padding-bottom: 10rem;
+}
+
 .swiper-slide-active {
   width: 111rem;
   height: 40.9rem;
   border-radius: 1.3rem;
   filter: drop-shadow(0 0.4rem 2.4rem rgba(0, 0, 0, 0.26));
-}
-html {
-  overflow-x: hidden
 }
 
 .swiper-wrapper {
@@ -25,8 +26,4 @@ html {
 .swiper-slide-prev img,
 .swiper-slide-active img {
   object-fit: cover;
-}
-
-.swiper {
-  overflow: visible;
 }
