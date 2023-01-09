@@ -1,0 +1,16 @@
+.discount {
+  padding-bottom: 6.2rem
+}
+
+.discount .tittle {
+  @include font(700, 4.4rem, 127%);
+  text-align: center;
+  margin-bottom: 4.7rem;
+}
+
+.discount .tittle--color {
+  color: #0E0C0D;
+  span {
+    color: #FF2E65;  
+  }
+}
