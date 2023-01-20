@@ -1,0 +1,15 @@
+.discount__btn {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.discount__btn--style {
+  padding: 1rem 4rem;
+  border-radius: 2.3rem;
+}
+
+.discount__btn--color {
+  background: #FF2E65;
+  color: #FFFFFF;
+}
