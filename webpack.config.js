@@ -9,7 +9,14 @@ const devtool = devMode ? 'source-map' : undefined;
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-
+// let htmlPageNames = ['header'];
+// let multipleHtmlPlugins = htmlPageNames.map(name => {
+//   return new HtmlWebpackPlugin({
+//     template: `./src/${name}.html`, // relative path to the HTML files
+//     filename: `${name}.html`, // output HTML files
+//     chunks: [`${name}`] // respective JS files
+//   })
+// });
 
 module.exports = {
     mode,
@@ -24,11 +31,16 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, 'src', 'index.html')
-        }), //для того чтобы отслеживать изминения в html
+        }),
+        new HtmlWebpackPlugin({
+            filename: "stock.html",
+            template: path.resolve(__dirname, 'src', 'stock.html')
+        }),
+        //для того чтобы отслеживать изминения в html
         new MiniCssExtractPlugin({
             filename: 'style.css'
         }) //для того чтобы минимизировать css файл
-    ],
+    ],  //.concat(multipleHtmlPlugins),
     module: {
         rules: [
             {
