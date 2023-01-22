@@ -36,6 +36,10 @@ module.exports = {
             filename: "stock.html",
             template: path.resolve(__dirname, 'src', 'stock.html')
         }),
+        new HtmlWebpackPlugin({
+            filename: "contact.html",
+            template: path.resolve(__dirname, 'src', 'contact.html')
+        }),
         //для того чтобы отслеживать изминения в html
         new MiniCssExtractPlugin({
             filename: 'style.css'
